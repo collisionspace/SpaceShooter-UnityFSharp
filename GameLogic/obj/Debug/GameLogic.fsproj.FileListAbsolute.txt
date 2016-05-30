@@ -1,0 +1,5 @@
+C:\Users\slonej3\Desktop\SpaceShooter\Assets\Scripts\GameLogic.dll
+C:\Users\slonej3\Desktop\SpaceShooter\Assets\Scripts\GameLogic.pdb
+C:\Users\slonej3\Desktop\SpaceShooter\Assets\Scripts\GameLogic.XML
+C:\Users\slonej3\Desktop\SpaceShooter\GameLogic\obj\Debug\GameLogic.dll
+C:\Users\slonej3\Desktop\SpaceShooter\GameLogic\obj\Debug\GameLogic.pdb
