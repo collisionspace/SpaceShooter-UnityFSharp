@@ -2,7 +2,9 @@
 
 I attempted to do this set of instructions on a Mac but Unity/Xamarin Studio/MonoDevelop didn’t like this so I followed these instructions on Windows 10 and it worked exactly as described below.
 
-The following setup instructions was taken from: https://github.com/Thorium/Roll-a-ball-FSharp
+The following setup instructions was taken from: https://github.com/Thorium/Roll-a-ball-FSharp <br/>
+Some of the instruction code will be for the Roll A Ball tutorial from Unity's website but there isn't much difference. <br/><br/>
+This repo is for the Space Shooter tutorial, you'll find the tutorial here:<br/> https://unity3d.com/learn/tutorials/projects/space-shooter-tutorial
 ### How to make a similar solution from scratch
 
  * Install some version of Unity and a Visual Studio (or MonoDevelop Add-in F# language binding)
