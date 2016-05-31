@@ -9,7 +9,6 @@ open UnityEngine
 type GameController() = 
     inherit MonoBehaviour()
 
-    
     [<SerializeField>]
     let mutable hazard = Unchecked.defaultof<Object>
     [<SerializeField>]
@@ -23,7 +22,10 @@ type GameController() =
     [<SerializeField>]
     let mutable waveWait = Unchecked.defaultof<float32>
 
-
+    
+    (*seq is used so that yield WaitForSeconds can be used
+     this loops until it's false. This loop randomly spawns asteroids
+     within the coordinates as seen in spawnPosition*)
     member x.SpawnWaves() =
         seq {
             yield WaitForSeconds(startWait)

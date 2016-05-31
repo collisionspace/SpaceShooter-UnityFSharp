@@ -9,6 +9,7 @@ type DestroyByContact() =
     [<SerializeField>]
     let mutable playerExplosion = Unchecked.defaultof<Object>
 
+    (*Uses pattern matching to find objects that have been given tags*)
     member x.OnTriggerEnter (other:Collider) =
         match other.tag with
         | "Boundary" -> ()   //regular explosion is always called when asteroid collides
