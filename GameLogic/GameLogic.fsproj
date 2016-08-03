@@ -45,17 +45,25 @@
     <Reference Include="UnityEngine">
       <HintPath>..\..\..\..\..\Program Files\Unity\Editor\Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\..\..\..\Program Files\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
+    <Compile Include="SimpleTouchPad.fs" />
+    <Compile Include="SimpleTouchAreaButton.fs" />
     <Compile Include="Library1.fs" />
     <None Include="Script.fsx" />
     <Compile Include="Mover.fs" />
     <Compile Include="DestroyByBoundary.fs" />
     <Compile Include="RandomRotator.fs" />
-    <Compile Include="DestroyByContact.fs" />
     <Compile Include="GameController.fs" />
+    <Compile Include="DestroyByContact.fs" />
     <Compile Include="DestroyByTime.fs" />
+    <Compile Include="BGScroller.fs" />
+    <Compile Include="WeaponController.fs" />
+    <Compile Include="EvasiveManeuver.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
